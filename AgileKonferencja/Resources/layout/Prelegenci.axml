@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <Toolbar
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="?android:attr/colorPrimary"
+        android:minWidth="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ToolbarPrelegenci"
+        android:title="Prelegenci" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="250.0dp"
+        android:id="@+id/ImageViewPrelegenci"
+        android:layout_marginLeft="10.0dp"
+        android:layout_marginRight="10.0dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="10.0dp" />
+    <TextView
+        android:text="nazwa"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewNazwa"
+        android:layout_marginLeft="10.5dp"
+        android:layout_marginRight="10.0dp"
+        android:layout_marginTop="10.0dp" />
+    <TextView
+        android:text="opis"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/TextViewPrelegenci"
+        android:layout_marginLeft="10.0dp"
+        android:layout_marginRight="10.0dp"
+        android:layout_marginBottom="10.0dp"
+        android:layout_marginTop="20.5dp" />
+</LinearLayout>

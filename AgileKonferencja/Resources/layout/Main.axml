@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/LinearLayoutMain"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <Toolbar
+        android:id="@+id/ToolbarMain"
+        android:minWidth="25px"
+        android:minHeight="?android:attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="65.0dp"
+        android:background="?android:attr/colorPrimary"
+        android:layout_gravity="bottom"
+        android:title="Ogarnij Agile!" />
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="161.0dp"
+        android:id="@+id/ImageViewLogo"
+        android:layout_marginTop="0.0dp"
+        android:layout_marginBottom="0.0dp"
+        android:layout_marginLeft="10.0dp"
+        android:layout_marginRight="10.0dp" />
+    <TextView
+        android:text="@string/OpisKonferencji"
+        android:layout_width="match_parent"
+        android:layout_height="152.0dp"
+        android:id="@+id/TextViewMain"
+        android:layout_marginLeft="10.0dp"
+        android:layout_marginRight="10.0dp" />
+    <Button
+        android:text="Zadzwoń do organizatorów"
+        android:layout_width="match_parent"
+        android:layout_height="65.5dp"
+        android:id="@+id/ButtonConnect"
+        android:layout_marginTop="20.0dp" />
+    <TextView
+        android:text="Wyższa Szkoła Bankowa w Gdańsku"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:id="@+id/TextViewOrganizator"
+        android:layout_marginTop="20.0dp" />
+</LinearLayout>
